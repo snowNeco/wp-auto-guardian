@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <meta http-equiv="Content-Security-Policy"
+content="
+default-src 'self';
+script-src 'self' https://www.googletagmanager.com;
+connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com;
+img-src 'self' data: https://www.google-analytics.com;">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -782,6 +788,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 </html>
+
 
 
 
